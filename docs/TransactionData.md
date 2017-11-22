@@ -1,0 +1,50 @@
+# TransactionData
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**additional_data** | **str** | additional data provided within the acquirer response | [optional] 
+**auxiliary_data** | **str** | Value provided by online processing | [optional] 
+**card_type** | **str** | The type of card used such as EMV | [optional] 
+**completed_at** | **str** | The date and time that the transaction was completed in ISO-8166 format | [optional] 
+**created_at** | **str** | The date and time that the transaction was created in ISO-8166 format | [optional] 
+**currency_symbol** | **str** | The currency symbol used | [optional] 
+**declined_by_card** | **bool** | Boolean value should the transaction be declined by the card | [optional] 
+**emv_app_cryptogram** | **str** | Cryptogram used by the card in processing | [optional] 
+**emv_app_expiration_date** | **str** | Expiry date of the card | [optional] 
+**emv_app_txn_counter** | **int** | A transaction counter, incremented by the device resulting in a transaction number | [optional] 
+**emv_authorized_amount** | **str** | The amount authorised | [optional] 
+**emv_cardholder_verification_results** | **str** | Verification results within the processing scope | [optional] 
+**emv_country_code** | **str** | A country code returned by the device | [optional] 
+**emv_cryptogram_info_data** | **str** | Cryptogram info returned by the card | [optional] 
+**emv_icc_appid** | **str** | The application id (AID) identifying the card used | [optional] 
+**emv_interchange_profile** | **str** | The interchange profile used | [optional] 
+**emv_issuer_app_data** | **str** | Application data provided by the issuer | [optional] 
+**emv_pan_seq_num** | **str** | Sequence number provided by the card | [optional] 
+**emv_terminal_capabilities** | **str** | Terminal capabilities of the device | [optional] 
+**emv_terminal_type** | **str** | The terminal type of the device | [optional] 
+**emv_terminal_verification_results** | **str** | TVR provided by the verification process of the transaction | [optional] 
+**emv_track2_equivalent** | **str** | A masked version of the card number | [optional] 
+**emv_txn_currency_code** | **str** | ISO currency code of the transaction | [optional] 
+**emv_txn_date** | **str** | ISO date of the transaction | [optional] 
+**emv_txn_status_info** | **str** | Status info of the transaction | [optional] 
+**emv_txn_type** | **str** | Transacrtion type information returned | [optional] 
+**emv_txn_unpredictable_number** | **str** | The UN or unpredicatble number in the transaction process | [optional] 
+**is_commercial_card** | **str** | Determines if the card was a commercial card | [optional] 
+**is_contactless** | **str** | Determines if the card was contactless | [optional] 
+**is_fallback** | **str** | Determines if fallback was used | [optional] 
+**is_offline** | **str** | Determines if the transaction was authorised offline | [optional] 
+**is_voided** | **str** | Determines if the transaction was voided | [optional] 
+**response_code** | **str** | A response code provided by the acquirer | [optional] 
+**response_text** | **str** | The response text returned by the acquirer | [optional] 
+**result** | **str** | A text result of the transaction | [optional] 
+**scheme** | **str** | A description of the card scheme for the card | [optional] 
+**signature_required** | **str** | Determines whether a signature was required for legacy systems | [optional] 
+**terminal_id** | **str** | The terminal id used from the device | [optional] 
+**total_amount** | **int** | The total amount processed | [optional] 
+**transaction_type** | **str** | The type of transaction processed | [optional] 
+**verified_by_pin** | **bool** | Determines if the transaction was verified by pin entry | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
